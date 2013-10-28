@@ -1,0 +1,93 @@
+/* my module */
+b {
+  font-weight: bold;
+}
+body {
+  padding: 20px 5%;
+  /**
+    font-family: 'Montaga', serif;
+    *
+    font-family: 'Fenix', serif;
+    */
+  font-family: 'Vollkorn', serif;
+}
+#name {
+  border-bottom: 1px solid black;
+  margin: 0 0 20px;
+  font-size: 20px;
+}
+.section {
+  padding: 0 0 20px;
+}
+.section > * {
+  display: inline-block;
+  vertical-align: top;
+}
+.section > .title {
+  font-weight: bold;
+  font-variant: small-caps;
+  text-transform: capitalize;
+  width: 20%;
+}
+.section > .content {
+  width: 70%;
+  text-align: justify;
+}
+.chronology td {
+  padding: 0 0 10px;
+  vertical-align: top;
+}
+.chronology td.desc {
+  text-align: left;
+}
+.chronology td.date {
+  padding-right: 20px;
+  white-space: nowrap;
+  font-weight: bold;
+}
+.chronology td.detail {
+  padding: 10px;
+}
+.languages td:last-child {
+  padding-left: 20px;
+}
+.info {
+  width: 100%;
+}
+.info td:first-child {
+  text-align: left;
+}
+.info td:last-child {
+  text-align: right;
+}
+.tech {
+  margin: 0;
+  padding: 0;
+}
+.tech li {
+  display: inline-block;
+  margin: 0 5px;
+}
+.tech li:before {
+  content: '☞ ';
+}
+@media screen {
+  body {
+    background-color: #fffffc;
+    font-size: 16px;
+  }
+}
+@media print {
+  body {
+    font-size: 12pt;
+  }
+  .chronology {
+    font-size: 11px;
+  }
+  .chronology td {
+    padding: 0 0 5px;
+  }
+  .chronology td.detail {
+    padding: 0 5px;
+  }
+}

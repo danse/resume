@@ -1,0 +1,119 @@
+/* my module */
+@mod: 20px;
+
+b {
+    font-weight: bold;
+}
+
+body {
+    padding: @mod 5%;
+    /**
+    font-family: 'Montaga', serif;
+    *
+    font-family: 'Fenix', serif;
+    */
+    font-family: 'Vollkorn', serif;
+}
+
+#name {
+    border-bottom: 1px solid black;
+    margin: 0 0 @mod;
+    font-size: 20px;
+}
+
+.section {
+    padding: 0 0 @mod;
+
+    > * {
+        display: inline-block;
+        vertical-align: top;
+    }
+    > .title {
+        font-weight: bold;
+        font-variant: small-caps;
+        text-transform: capitalize;
+        width: 20%;
+    }
+    > .content {
+        width: 70%;
+        text-align: justify;
+    }
+}
+
+.chronology {
+    td {
+        padding: 0 0 @mod/2;
+        vertical-align: top;
+
+        &.desc {
+            text-align: left;
+        }
+        &.date {
+            padding-right: @mod;
+            white-space: nowrap;
+            font-weight: bold;
+        }
+        &.detail {
+            padding: @mod/2;
+        }
+    }
+}
+
+.languages {
+    td:last-child {
+        padding-left: @mod;
+    }
+}
+
+.info {
+    width: 100%;
+
+    td:first-child {
+        text-align: left;
+    }
+    td:last-child {
+        text-align: right;
+    }
+}
+
+.tech {
+    margin: 0;
+    padding: 0;
+
+    li {
+        display: inline-block;
+        margin: 0 @mod/4;
+
+        &:before {
+            content: '☞ ';
+        }
+    }
+}
+@media screen {
+    body {
+        background-color: #fffffc;
+        font-size: 16px;
+    }
+    .section {
+
+        &:hover {
+        }
+    }
+}
+
+@media print {
+    body {
+        font-size: 12pt;
+    }
+    .chronology {
+        font-size: 11px;
+
+        td {
+            padding: 0 0 @mod/4;
+
+            &.detail {
+                padding: 0 @mod/4;
+            }
+        }
+    }
+}

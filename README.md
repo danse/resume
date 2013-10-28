@@ -1,5 +1,3 @@
-
-I have a master degree in computer engineering in Pisa University.
-
-I worked as a python developer, and i'm currently working as a frontend
-developer.
+This is the code to generate my single-page curriculum. Until now i
+liked it like this, simple and concise. It used to be in LaTeX, then i
+ported it to CSS.
