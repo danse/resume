@@ -2,6 +2,10 @@
 b {
   font-weight: bold;
 }
+p {
+  margin: 0;
+  padding: 0;
+}
 body {
   padding: 20px 5%;
   /**
