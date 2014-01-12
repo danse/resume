@@ -12,8 +12,10 @@ body {
     font-family: 'Montaga', serif;
     *
     font-family: 'Fenix', serif;
+    *
+    font-family: 'Vollkorn', serif;
     */
-  font-family: 'Vollkorn', serif;
+  font-family: 'Sorts Mill Goudy', serif;
 }
 #name {
   border-bottom: 1px solid black;
