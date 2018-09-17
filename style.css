@@ -31,8 +31,6 @@ body {
 }
 .section > .title {
   font-weight: bold;
-  font-variant: small-caps;
-  text-transform: capitalize;
   width: 20%;
 }
 .section > .content {
@@ -52,7 +50,7 @@ body {
   font-weight: bold;
 }
 .chronology td.detail {
-  padding: 10px;
+  padding: 0px 10px 10px;
 }
 .languages td:last-child {
   padding-left: 20px;
@@ -90,7 +88,7 @@ body {
     margin: 0;
   }
   .chronology {
-    font-size: 11px;
+/*    font-size: 11px; */
   }
   .chronology td {
     padding: 0 0 5px;
