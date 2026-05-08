@@ -1,0 +1,142 @@
+
+/*
+
+developer.mozilla.org/en-US/docs/Web/CSS/@font-face
+fonts.google.com
+
+@font-face {
+    font-family: 'Lato';
+    src: url('fonts/Lato/Lato-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat/Montserrat-Black.ttf') format('truetype');
+}
+
+*/
+
+body {
+  background-color: #fbdbd347;
+  padding: 20px 2%;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  text-indent: 3px;
+  margin-left: 10px;
+}
+
+img {
+  height: 25px; /* the media icons */
+  vertical-align: middle;
+}
+
+.highlight {
+  font-family: 'Montserrat', serif;
+  font-size: 12pt;
+  font-style: italic;
+}
+
+.accent {
+    color: darkred;
+  /* color: #A800FA; */
+}
+
+.section {
+  page-break-inside: avoid;
+}
+
+.section > .content {
+  text-align: justify;
+  padding: 4px 0;
+}
+
+#intro {
+  border-bottom: 1px solid black;
+  margin: 0 0 2px;
+  font-size: 120%;
+}
+
+#summary {
+  padding: 0 0 20px;
+}
+
+#fran {
+  padding: 0 0 0 6px;
+  display: inline;
+}
+
+.date {
+  font-weight: bold;
+  color: gray;
+}
+
+:not(.date)::first-letter {
+    font-size: 130%;
+}
+
+a:link {
+    color: darkred;
+    text-decoration: none;
+}
+
+table.chronology {
+  width: 100%;
+  /*margin-bottom: 20px;*/
+
+  td {
+    padding: 0 5px;
+    vertical-align: top;
+  }
+
+  td.desc {
+    text-align: left;
+  }
+
+  td.date {
+    padding-right: 20px;
+    white-space: nowrap;
+    text-align: right;
+  }
+
+  td.detail {
+    padding: 0px 5px;
+  }
+}
+
+.languages td:last-child {
+  padding-left: 20px;
+}
+
+.contacts {
+  width: 100%;
+
+  contact:first-child {
+      padding-right: 40px;
+  }
+  contact {
+      padding: 0 2px;
+  }
+}
+
+.head {
+  text-align: right;
+}
+
+.tech {
+  margin: 0;
+  padding: 0;
+
+  li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+
+  li:before {
+    content: '☞ ';
+  }
+}
