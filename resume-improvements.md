@@ -11,7 +11,7 @@
 
 ## Content
 - [ ] Update Tracsis dates: "2021 — 2025" → current year (`practical.html:38`)
-- [ ] Add GitHub/portfolio link to contacts (`practical.html:271-281`)
+- [x] Add GitHub/portfolio link to contacts (`practical.html:271-281`)
 - [ ] Complete the tech list: replace "⋯" with 2-3 more key skills (`practical.html:227`)
 - [ ] Add "networking and multimedia" curriculum note to education (`practical.html:173` comment)
 - [ ] Add a languages section (`.languages` CSS exists at `practical.css:106` but no HTML)
@@ -23,4 +23,4 @@
 
 ## Structure
 - [ ] Condense "some values" section if space is tight (`practical.html:231-269`)
-- [ ] Add location/LinkedIn to contacts (`practical.html:271-281`)
+- [x] Add location/LinkedIn to contacts (`practical.html:271-281`)
