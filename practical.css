@@ -75,10 +75,6 @@ img {
   color: gray;
 }
 
-:not(.date)::first-letter {
-    font-size: 130%;
-}
-
 a:link {
     color: darkred;
     text-decoration: none;
