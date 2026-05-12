@@ -128,10 +128,13 @@ table.chronology {
 
   li {
     display: inline-block;
-    margin: 0 5px;
   }
+}
 
-  li:before {
-    content: '☞ ';
-  }
+.horizontally {
+  display: flex;
+}
+
+.panel {
+  flex: content;
 }
