@@ -47,6 +47,7 @@ img {
 
 .section {
   page-break-inside: avoid;
+  padding: 10px 0;
 }
 
 .section > .content {
